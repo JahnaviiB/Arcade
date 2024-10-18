@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class alllongestStrings {
-    public static List<String> longest(String[] inputarray) {
+    public static List<String> longeststring(String[] inputarray) {
         List<String> result = new ArrayList<String>();
         int maxlength = 0;
         for(String str : inputarray) {
@@ -19,7 +19,7 @@ public class alllongestStrings {
     }
     public static void main(String[] args){
         String[] inputarray = {"aba", "aa", "ad", "vcd", "aba"};
-        List<String> result = longest(inputarray);
+        List<String> result = longeststring(inputarray);
         System.out.println(result);
     }
 }

@@ -1,6 +1,6 @@
 public class adjacentElementsProduct {
 
-    public static int maxproduct(int[] a){
+    public static int maxproducts(int[] a){
         int max_product = Integer.MIN_VALUE;
         for(int i=0;i< a.length - 1; i++){
             int product = a[i]*a[i+1];
@@ -12,7 +12,7 @@ public class adjacentElementsProduct {
     }
     public static void main(String[] args) {
         int input[] = {3, 6, -2, -5, 7, 3};
-        int result = maxproduct(input);
+        int result = maxproducts(input);
         System.out.println(result);
     }
 }

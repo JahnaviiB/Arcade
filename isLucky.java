@@ -1,5 +1,5 @@
 public class isLucky {
-    public static boolean lucky(int n) {
+    public static boolean isLucky(int n) {
         String n1 = Integer.toString(n);
         int l = n1.length();
 
@@ -22,8 +22,8 @@ public class isLucky {
         return f_sum == s_sum;
     }
     public static void main(String[] args) {
-        boolean result = lucky(1234);
-        System.out.println(lucky(1230));
+        boolean result = isLucky(1234);
+        System.out.println(isLucky(1230));
         System.out.println(result);
     }
 }

@@ -1,9 +1,9 @@
 public class add {
-    public static int add(int a,int b){
+    public static int adding(int a,int b){
         return a+b;
     }
     public static void main(String[] args) {
-        int result = add(3,2);
+        int result = adding(3,2);
         System.out.println("The sum is : " + result);
 
     }

@@ -1,5 +1,5 @@
 public class matrixelementSum {
-    public static int solution(int[][] matrix) {
+    public static int elementSum(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
         int sum = 0;
@@ -28,7 +28,7 @@ public class matrixelementSum {
         int[][] matrix = {{1,2,3},
                 {4,0,6},
                 {7,8,9}};
-        int result = solution(matrix);
+        int result = elementSum(matrix);
         System.out.println(result);
 
     }

@@ -1,5 +1,5 @@
 public class commonCharacterCount {
-        public static int solution(String s1, String s2){
+        public static int CharCount(String s1, String s2){
             int[] c1 = new int[26];
             int[] c2 = new int[26];
 
@@ -20,7 +20,7 @@ public class commonCharacterCount {
     public static void main(String[] args) {
         String s1 = "aabcc";
         String s2 = "adcaa";
-        int result = solution(s1,s2);
+        int result = CharCount(s1,s2);
         System.out.println(result);
     }
 }

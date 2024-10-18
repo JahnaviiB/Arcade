@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class makeArrayconsecutive2 {
-    public static int solution(int[] statues) {
+    public static int makeConsecutive(int[] statues) {
         if (statues == null || statues.length == 0) {
             return 0;
         }
@@ -14,6 +14,6 @@ public class makeArrayconsecutive2 {
 
     public static void main(String[] args) {
         int[] statues = {6, 2, 3, 8};
-        System.out.println(solution(statues));  // Output should be 3
+        System.out.println(makeConsecutive(statues));  // Output should be 3
     }
 }

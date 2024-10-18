@@ -1,5 +1,5 @@
 public class almostincreasingSequence{
-    public static boolean solution(int[] sequence) {
+    public static boolean CanIncrease(int[] sequence) {
         return canBeIncreasing(sequence);
     }
     private static boolean canBeIncreasing(int[] sequence) {
@@ -35,6 +35,6 @@ public class almostincreasingSequence{
     }
     public static void main(String[] args) {
         int[] sequence = {1, 3, 2, 1};
-        System.out.println(solution(sequence));
+        System.out.println(CanIncrease(sequence));
     }
 }

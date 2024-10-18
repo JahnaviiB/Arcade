@@ -1,5 +1,5 @@
 public class checkPalindrome {
-    public static boolean Palindrome(String s){
+    public static boolean IsPalindrome(String s){
         int left = 0;
         int right = s.length()-1;
         while(left < right){
@@ -15,7 +15,7 @@ public class checkPalindrome {
     public static void main(String[] args){
 
         String input = "aabaa";
-        Boolean result = Palindrome(input);
+        Boolean result = IsPalindrome(input);
         System.out.println(result);
     }
 }
